@@ -1,0 +1,27 @@
+{
+  "experiment_name": "diabetes-drift-monitoring",
+  "run_name": "ridge-baseline-and-drift",
+  "dataset": "sklearn.datasets.load_diabetes",
+  "records_total": 442,
+  "reference_records": 265,
+  "current_records": 177,
+  "features": 10,
+  "drifted_features": 3,
+  "drift_share": 0.3,
+  "prediction_ks_stat": 0.26705042106385246,
+  "prediction_ks_pvalue": 3.3878467639594586e-07,
+  "reference_metrics": {
+    "rmse": 59.94635222868889,
+    "mae": 50.50923901101471,
+    "r2": 0.399074233202495
+  },
+  "current_metrics": {
+    "rmse": 59.5344253569559,
+    "mae": 51.379363544421096,
+    "r2": 0.3941492149267728
+  },
+  "thresholds": {
+    "ks_pvalue": 0.05,
+    "psi": 0.2
+  }
+}

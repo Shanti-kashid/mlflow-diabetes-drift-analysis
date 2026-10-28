@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+
+# MLflow local data
+mlflow.db
+mlruns/
+.mlflow/
+
+# Generated outputs are reproducible; keep folders with .gitkeep
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
